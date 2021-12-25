@@ -1,0 +1,117 @@
+.login-wrapper {
+  align-items: center;
+  background-color: #181820;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: flex-start;
+  width: 100vw;
+}
+
+.login-container {
+  border-radius: 10px;
+  height: 800px;
+  margin-top: 180px;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-title {
+  font-size: 43px;
+  font-weight: 800;
+  margin-bottom: 39px;
+}
+
+.login-btns {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-btns button {
+  background-color: #181820;
+  border: none;
+  border: 1.5px solid #1dabbc;
+  margin: 10px;
+  height: 50px;
+  width: 70%;
+  font-size: 17px;
+  border-radius: 7px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-icons {
+  margin-right: 10px;
+  font-size: 21px;
+}
+
+.login-or {
+  font-size: 18px;
+}
+
+.login-inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 450px;
+}
+
+.login-inputs input {
+  margin: 10px;
+  background-color: #181820;
+  border: none;
+  border: 1.5px solid #1dabbc;
+  height: 50px;
+  width: 70%;
+  font-size: 17px;
+  border-radius: 7px;
+  color: white;
+  padding: 10px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: #fff !important;
+}
+
+.login-inputs input:active {
+  background-color: #181820;
+}
+
+.login-btn {
+  width: 70%;
+  margin-top: 10px;
+  cursor: pointer;
+  height: 50px;
+  border-radius: 7px;
+  font-size: 17px;
+  font-weight: 700;
+  border: none;
+  color: white;
+  background: rgb(92,163,166);
+  background: linear-gradient(90deg, rgba(92,163,166,1) 0%, rgba(29,171,176,1) 41%, rgba(30,107,110,1) 100%);
+}
+
+.login-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+@media only screen and (max-width: 1400px) {
+  .login-container {
+    margin-top: 80px;
+  }
+}
