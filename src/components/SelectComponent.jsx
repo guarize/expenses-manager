@@ -22,7 +22,7 @@ class SelectComponent extends Component {
           test="method-input"
           label="Payment Method"
           value={ method }
-          options={ ['Dinheiro', 'Cartão de crédito', 'Cartão de débito'] }
+          options={ ['Cash', 'Credit Card', 'Debit Card'] }
           handleChange={ handleChange }
         />
         <SelectInput
