@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Expenses Manager App](https://trivia-game-drab.vercel.app/)
+- Live Site URL: [Expenses Manager App](https://expenses-manager.vercel.app/)
 
 ### Built with
 
